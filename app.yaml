@@ -5,7 +5,7 @@ api_version: 1
 threadsafe: true
 
 handlers:
-- url: service
+- url: /service
   script: public/service.php
 
 - url: .*
