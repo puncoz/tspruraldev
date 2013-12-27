@@ -1,4 +1,4 @@
-iapplication: tspruraldev 
+application: tspruraldev 
 version: 1
 runtime: php
 api_version: 1
@@ -6,4 +6,4 @@ threadsafe: true
 
 handlers:
 - url: .*
-  script: public/main.php
+  script: public/index.php
