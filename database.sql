@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Dec 28, 2013 at 04:34 PM
+-- Generation Time: Dec 28, 2013 at 09:01 PM
 -- Server version: 5.5.16
 -- PHP Version: 5.3.8
 
@@ -114,6 +114,35 @@ INSERT INTO `districts` (`district_id`, `district_name`, `region`) VALUES
 (73, 'Dadeldhura', 'Far-Western Region'),
 (74, 'Baitadi', 'Far-Western Region'),
 (75, 'Darchula', 'Far-Western Region');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `fundings`
+--
+
+CREATE TABLE IF NOT EXISTS `fundings` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `project_name` varchar(50) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `organization` varchar(30) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `vdc_code` int(11) NOT NULL,
+  `start_date` date NOT NULL,
+  `end_date` date NOT NULL,
+  `status` varchar(15) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `total_cost` float NOT NULL,
+  `commitment_amount` float NOT NULL,
+  `project_description` text CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
+
+--
+-- Dumping data for table `fundings`
+--
+
+INSERT INTO `fundings` (`id`, `project_name`, `organization`, `vdc_code`, `start_date`, `end_date`, `status`, `total_cost`, `commitment_amount`, `project_description`) VALUES
+(1, 'Strengthening the National Rural Transport Program', 'The World Bank', 12041, '2013-12-23', '2015-07-15', 'active', 175400000, 100000000, 'http://www.worldbank.org/projects/P132750?lang=en'),
+(2, 'Education for All', 'The World Bank', 12050, '2004-07-08', '2010-01-31', 'closed', 664000000, 50000000, 'http://www.worldbank.org/projects/P081968/poverty-alleviation-fund-project?lang=en'),
+(3, 'Poverty Alleviation Fund', 'The World Bank', 11001, '2004-06-01', '2009-02-01', 'closed', 16600000, 15000000, 'The Poverty Alleviation Fund Project''s development objective is to support Nepal in implementing a new, targeted instrument - the Poverty Alleviation Fund (PAF) - for reaching poor and excluded communities. http://www.worldbank.org/projects/P081968/poverty-alleviation-fund-project?lang=en');
 
 -- --------------------------------------------------------
 
