@@ -1,0 +1,32 @@
+2013-12-25T18:58:16+01:00 main ERROR SQLSTATE[42000] [1049] Unknown database 'php-jquery_examplea'
+2013-12-25T19:03:33+01:00 DB_Connect ERROR SQLSTATE[42000] [1049] Unknown database 'php-jquery_examplea'
+2013-12-25T19:07:34+01:00 DB_Connect ERROR SQLSTATE[42000] [1049] Unknown database 'php-jquery_examplea'
+2013-12-25T19:09:03+01:00 DB_Connect FATAL SQLSTATE[42000] [1049] Unknown database 'php-jquery_examplea'
+25.12.2013 19:12:06,524 DB_Connect FATAL SQLSTATE[42000] [1049] Unknown database 'php-jquery_examplea'
+25.12.2013 19:13:09,731 | DB_Connect FATAL SQLSTATE[42000] [1049] Unknown database 'php-jquery_examplea'
+27.12.2013 19:02:40,420 | DB_Connect FATAL could not find driver
+27.12.2013 19:02:40,907 | DB_Connect FATAL could not find driver
+27.12.2013 19:05:43,598 | DB_Connect FATAL could not find driver
+27.12.2013 19:05:44,108 | DB_Connect FATAL could not find driver
+27.12.2013 19:13:48,609 | DB_Connect FATAL could not find driver
+27.12.2013 19:13:49,258 | DB_Connect FATAL could not find driver
+27.12.2013 19:13:50,570 | DB_Connect FATAL could not find driver
+27.12.2013 19:13:50,895 | DB_Connect FATAL could not find driver
+27.12.2013 19:28:32,559 | DB_Connect FATAL could not find driver
+27.12.2013 19:28:32,993 | DB_Connect FATAL could not find driver
+27.12.2013 19:28:34,301 | DB_Connect FATAL could not find driver
+27.12.2013 19:28:34,648 | DB_Connect FATAL could not find driver
+27.12.2013 19:28:35,841 | DB_Connect FATAL could not find driver
+27.12.2013 19:28:36,165 | DB_Connect FATAL could not find driver
+27.12.2013 19:29:23,583 | DB_Connect FATAL could not find driver
+27.12.2013 19:29:24,071 | DB_Connect FATAL could not find driver
+27.12.2013 19:40:04,760 | DB_Connect FATAL could not find driver
+27.12.2013 19:40:05,227 | DB_Connect FATAL could not find driver
+27.12.2013 19:40:06,528 | DB_Connect FATAL could not find driver
+27.12.2013 19:40:06,845 | DB_Connect FATAL could not find driver
+27.12.2013 19:40:07,267 | DB_Connect FATAL could not find driver
+27.12.2013 19:40:07,647 | DB_Connect FATAL could not find driver
+27.12.2013 19:40:07,648 | DB_Connect FATAL could not find driver
+27.12.2013 19:40:07,977 | DB_Connect FATAL could not find driver
+27.12.2013 19:40:08,807 | DB_Connect FATAL could not find driver
+27.12.2013 19:40:09,151 | DB_Connect FATAL could not find driver
