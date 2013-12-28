@@ -10,17 +10,17 @@ $C = array();
 /**
  * The database host URL
  */
-$C['DB_HOST'] = 'localhost';
+$C['DB_HOST'] = 'sql4.freemysqlhosting.net';
 
 /**
  * The database username
  */
-$C['DB_USER'] = 'root';
+$C['DB_USER'] = 'sql425764';
 
 /**
  * The database passowrd
  */
-$C['DB_PASS'] = '';
+$C['DB_PASS'] = 'jN6%iR3!';
 
 /**
  * The name of the datbase to work with
