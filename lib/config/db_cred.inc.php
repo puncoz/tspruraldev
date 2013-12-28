@@ -15,17 +15,17 @@ $C['DB_HOST'] = 'localhost';
 /**
  * The database username
  */
-$C['DB_USER'] = 'admin';
+$C['DB_USER'] = 'root';
 
 /**
  * The database passowrd
  */
-$C['DB_PASS'] = 'logadmin';
+$C['DB_PASS'] = '';
 
 /**
  * The name of the datbase to work with
  */
-$C['DB_NAME'] = 'php-jquery_example';
+$C['DB_NAME'] = 'tsprd';
 
 /**
  * Define constatns for configuration info
