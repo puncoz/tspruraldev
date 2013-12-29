@@ -13,5 +13,7 @@ sudo find . -type f -exec chmod 470 {} +
 
 #permisssion for files logs directory
 sudo chmod 770 logs/
-sudo chmod 770 public/tmpl/templates_c
-sudo chmod 770 public/tmpl/cache
+sudo chmod 770 public_html/tmpl/templates_c
+sudo chmod 770 public_html/tmpl/cache
+sudo chmod 770 public_html/upload
+

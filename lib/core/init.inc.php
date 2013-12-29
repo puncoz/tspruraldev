@@ -36,3 +36,8 @@ Logger::configure(LIB_PATH.DS.'config'.DS.'log4php.inc.php');
  * Load smarty templating library
  */
 require_once(LIB_PATH.DS.'smarty'.DS.'Smarty.class.php');
+
+/**
+ * HTML purifer
+ */
+require_once(LIB_PATH.DS.'htmlpurifier-4.6.0-standalone'.DS.'HTMLPurifier.standalone.php');

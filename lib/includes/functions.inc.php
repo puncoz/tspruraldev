@@ -1,12 +1,10 @@
 <?php
 
-/**
- * Auto load function for classes
- */
-spl_autoload_register (function ($class) {
-    $filename = LIB_PATH.DS.'class'.DS.strtolower($class).'.class.php';
-    if(file_exists($filename)){
-        include_once $filename;
+function validPhone($phone){
+    $phone = preg_replace('/[^0-9]/', '', $phone);
+    if(strlen($phone) === 10) {
+        return $phone; 
+    } else {
+        return new Exception("Invalid! Phone number");
     }
-});
-
+}

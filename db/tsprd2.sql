@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Dec 28, 2013 at 09:01 PM
+-- Generation Time: Dec 29, 2013 at 03:42 AM
 -- Server version: 5.5.16
 -- PHP Version: 5.3.8
 
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `vtshackathon`
+-- Database: `tsprd`
 --
 
 -- --------------------------------------------------------
@@ -419,6 +419,33 @@ INSERT INTO `poverty` (`id`, `district_code`, `year`, `population`, `poverty_inc
 (73, 73, 2011, 140779, 0.433, 0.101, 0.118, 0.039, 0.045, 0.018),
 (74, 74, 2011, 250065, 0.457, 0.101, 0.123, 0.039, 0.046, 0.018),
 (75, 75, 2011, 132081, 0.53, 0.109, 0.152, 0.048, 0.059, 0.024);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `sms`
+--
+
+CREATE TABLE IF NOT EXISTS `sms` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `from` varchar(10) NOT NULL,
+  `msg` varchar(160) NOT NULL,
+  `timestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `filename` varchar(50) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
+
+--
+-- Dumping data for table `sms`
+--
+
+INSERT INTO `sms` (`id`, `from`, `msg`, `timestamp`, `filename`) VALUES
+(1, '9843204872', 'asdkf adfja sldf', '2013-12-28 23:25:44', '1388273144c.png'),
+(2, '35', 'xbfgb', '2013-12-28 23:26:54', '1388273214c.png'),
+(3, '9999999999', 'asdfsdfjasd faklsdf asdfj', '2013-12-28 23:46:55', '1388274415c.png'),
+(4, '9999999999', 'asdfsdfjasd faklsdf asdfj', '2013-12-28 23:48:49', '1388274529c.png'),
+(5, '9999999999', 'asdfsdfjasd faklsdf asdfj', '2013-12-28 23:49:22', '1388274562c.png'),
+(6, '9999999999', 'test gush cr web duck fetal', '2013-12-29 00:12:37', '13882759571388275937875.jpg');
 
 -- --------------------------------------------------------
 

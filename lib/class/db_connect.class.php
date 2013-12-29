@@ -56,7 +56,7 @@ class DB_Connect
             /**
              * If the DB connection fails, output the error
              */
-//            self::$log->fatal($e->getMessage());
+            self::$log->fatal($e->getMessage());
             die($e->getMessage());
         }
      }
